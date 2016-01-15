@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.socialreport.srpublisher.PublicationsListActivity">
+
+    <include android:id="@+id/toolbar_main"
+        layout="@layout/tool_bar_main"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/publications_recycler_view"
+        android:layout_below="@id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

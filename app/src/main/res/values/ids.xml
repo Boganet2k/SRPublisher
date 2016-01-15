@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" value="integer" name="pinterest_account_id"/>
+    <item type="id" value="integer" name="pinterest_board_id"/>
+</resources>

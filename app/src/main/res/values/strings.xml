@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Social Report</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Publish</string>
+    <string name="action_account_settings">Select</string>
+    <string name="pic">Received Picture</string>
+    <string name="select_project">Select Project</string>
+    <string name="select_account">Select Account</string>
+    <string name="project_not_selected">Project not selected</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_accounts_list">Select accounts</string>
+    <string name="action_upload">Upload</string>
+    <string name="action_publish">Publish</string>
+    <string name="loading">Loading...</string>
+    <string name="publishing">Publishing...</string>
+    <string name="action_accounts_select">Select</string>
+    <string name="action_accounts_select_cancel">Cancel</string>
+    <string name="username">Login</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Login</string>
+    <string name="logout">Logout</string>
+    <string name="sign_in_succeeded">Login success</string>
+    <string name="sign_in_error">Login failed</string>
+    <string name="title_activity_pinterest_accounts_list">Please select boards</string>
+    <string name="cardview_contents">Select board</string>
+    <string name="title_activity_publications_list">Content groups</string>
+    <string name="action_publication_add">Add</string>
+    <string name="action_pinterest_account_select">Select</string>
+    <string name="action_publication_cancel">Cancel</string>
+    <string name="category_not_selected">Please select category</string>
+    <string name="accounts_not_present">Accounts not present</string>
+    <string name="publication_not_selected">Select content group</string>
+    <string name="logout_help">Help</string>
+    <string name="please_login">Please login</string>
+    <string name="board_select_dialog_title">Whoops</string>
+    <string name="board_select_dialog_message">You are posting to an existing content group. To change selected accounts please login to your dashboard.</string>
+    <string name="dialog_button_text_ok">OK</string>
+    <string name="select_board_for_pinterest_account">Select boards for pinterest account</string>
+    <string name="alert_caption">Alert</string>
+    <string name="new_content_group">New content group</string>
+    <string name="continue_text">Continue</string>
+    <string name="image_upload_method">Are you looking to publish this image or upload to media library?</string>
+    <string name="upload_caption">Upload</string>
+    <string name="publish_caption">Publish</string>
+    <string name="copyright">Copyright (c) 2015 SocialReport.com All rights reserved.</string>
+    <string name="success">Success</string>
+    <string name="success_publish">Publication has been scheduled</string>
+    <string name="failed">Failed</string>
+    <string name="failed_publish">Publication has not been scheduled</string>
+    <string name="success_upload">Image has been uploaded</string>
+    <string name="failed_upload">Image has not been uploaded</string>
+    <string name="character">characters</string>
+    <string name="character_remain_for_twitter">remaining for Twitter</string>
+
+</resources>

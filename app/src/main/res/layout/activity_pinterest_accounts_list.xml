@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.socialreport.srpublisher.PinterestAccountsListActivity">
+
+    <include android:id="@+id/toolbar_main"
+        layout="@layout/tool_bar_main"/>
+
+    <ScrollView
+        android:layout_below="@id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/pinterest_accountCards_container"></LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:padding="@dimen/editText_padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:text=""
+                    android:textAlignment="gravity"
+                    android:id="@+id/textView_upload"
+                    android:background="@drawable/edittext_style"
+                    android:gravity="top"/>
+
+
+                <RelativeLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_weight="4"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff">
+
+                    <ImageView
+                        android:id="@+id/imageView_upload"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="center"
+                        android:adjustViewBounds="true"
+                        android:padding="@dimen/activity_horizontal_margin"/>
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/frame_projects_upload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#80000000"
+                android:layout_alignParentBottom="true"></FrameLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btn_projects_select_upload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/select_project"
+                android:textColor="@color/common_google_signin_btn_text_dark"
+                android:background="@color/button_active"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/web_upload_shadow"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#80000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/web_upload_progress_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="visible"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'SocialReport'
+            keyPassword 'Webalgor1thm'
+            storeFile file('/Users/aleksandrbogomolov/AndroidStudioProjects/SRPublisher/app/socialreport.jks')
+            storePassword 'Webalgor1thm'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+    defaultConfig {
+        applicationId "com.socialreport.srpublisher"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 2
+        versionName "1.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/org.apache.http.legacy.jar')
+    androidTestCompile 'com.android.support.test:testing-support-lib:0.1'
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.0'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.loopj.android:android-async-http:1.4.8'
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.google.android.gms:play-services:8.3.0'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.android.support:cardview-v7:23.1.1'
+    compile 'com.squareup.retrofit:retrofit:2.0.0-beta2'
+    compile 'com.android.support:design:23.1.1'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.twitter:twitter-text:1.6.1'
+}

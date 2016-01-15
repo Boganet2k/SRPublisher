@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.socialreport.srpublisher.PublicationsListActivity">
+
+    <item android:id="@+id/action_publication_add"
+        android:title="@string/action_publication_add"
+        android:orderInCategory="99"
+        android:icon="@drawable/ic_add_white_48dp"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_publication_cancel"
+        android:title="@string/action_publication_cancel"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_close_white_48dp"
+        app:showAsAction="always"/>
+</menu>

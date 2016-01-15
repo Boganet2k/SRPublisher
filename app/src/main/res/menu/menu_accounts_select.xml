@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.socialreport.srpublisher.MainActivity">
+
+    <item android:id="@+id/action_accounts_select_cancel"
+        android:title="@string/action_accounts_select_cancel"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_accounts_select_done"
+        android:title="@string/action_accounts_select"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+</menu>
